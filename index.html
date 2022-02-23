@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1,user-scalable=no">
+
+   <!-- og -->
+   <meta property="og:title" content="반응형 홈페이지만들기">
+   <meta property="og:url" content="https://portfolio-young.netlify.app">
+   <meta property="og:image" content="https://portfolio-young.netlify.app/asset/images/og.png">
+   <meta property="og:description" content="반응형홈페이지 만들기입니다.">
+  <title>반응형 홈페이지</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="asset/favicon/favicon.ico" type="image/x-icon">
+
+  <link rel="manifest" href="asset/js/manifest.json">
+
+  <!-- 평준화 -->
+  <link rel="stylesheet" href="asset/common/normalize.css">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="asset/common/swiper-bundle.min.css">
+  <!-- 폰트 -->
+  <!-- font family: 'Noto Sans KR' /
+     proxina-nova 100, 300, 400, 500, 600, 700, 800-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- css (pc) 기본-->
+  <link rel="stylesheet" href="index.css">
+  <!-- css (mobile)-->
+  <link rel="stylesheet" media="(max-width:768px)" href="index_m.css">
+
+
+</head>
+<body>
+    <div class="notice">
+      <div class="page">
+        <ul id="left">
+          <li><img src="asset/images/icon/kr.svg" alt="국기" width="18px" height="12px"></li>
+          <li>ㅣ</li>
+          <li>한국어</li>
+        </ul>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide1">
+              <p><strong>NOTICE</strong><br>코로나로 인한 유선상담 일시 중단</p>
+            </div>
+            <div class="swiper-slide slide2">
+              <p><strong>EVENT</strong><br>디어클레어스, 선착순 2천명 무료 샘플링이벤트</p>
+            </div>
+            <div class="swiper-slide slide3">
+              <p><strong>EVENT</strong><br>클레어스 공식몰 단독 혜택</p>
+            </div>
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+
+      </div>
+    </div>
+  
+  <div class="page">
+  <header>
+      <ul id="nav_pc">
+        <li>
+          <ul id="bar_1">
+            <li><a href="#"><img src="asset/images/icon/logo.png" alt="로고"></a></li>
+            <li><a href="#">KLAIRS</a></li>
+            <li><a href="#">SHOPPING</a></li>
+            <li><a href="#">STORY</a></li>
+            <li><a href="#">CUSTOMAR</a></li>
+            <li><a href="#">EVENT</a></li>
+            <li><a href="#">STORE</a></li>
+          </ul>
+        </li>
+        <li>
+          <ul id="bar_2">
+            <li><a href="#"><img src="asset/images/icon/user.png" alt="마이페이지"></a></li>
+            <li><a href="#"><img src="asset/images/icon/cart.png" alt="장바구니"></a></li>
+            <li><a href="#"><img src="asset/images/icon/heart.png" alt="찜"></a></li>
+            <li><a href="#"><img src="asset/images/icon/mia.png" alt="?"></a></li>
+            <li><input type="search" name="product_search" id="search" placeholder="검색"><img src="asset/images/icon/search.png" alt="검색버튼" id="sear"></li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul id="nav_m">
+        <li class="slidemenu">
+          <p id="button"></p>
+        
+          <div id="leftslide">
+          <ul id="slidelist">
+            <li><p id="button2"></p></li>
+            <li><a href="#">KLAIRS</a></li>
+            <li><a href="#">SHOPPING</a></li>
+            <li><a href="#">STORY</a></li>
+            <li><a href="#">CUSTOMAR</a></li>
+            <li><a href="#">EVENT</a></li>
+            <li><a href="#">STORE</a></li>
+            <li class="join"><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+          </ul>
+          </div>
+          </nav>
+        </li>
+        <li><a href="#"><img src="asset/images/icon/logo.png" alt="로고"></a></li>
+        <li>
+          <ul>
+            <li><a href="#"><img src="asset/images/icon/cart.png" alt="장바구니"></a></li>
+            <li><a href="#"><img src="asset/images/icon/search_b.png" alt="검정검색아이콘"></a></li>
+          </ul>
+        </li>
+      </ul>
+
+  </header>
+  </div>
+
+  <main>
+    <div class="main_1">
+      <div class="m1_1">
+        <div class="txt1">
+          <h2>NEW CLEANSER</h2>
+          <p>민감한 피부에도 편안한 약산성 클렌저로,<br>아미노산계 계면활성제가 자극없이 순한 클렌징을 도와줍니다.</p>
+          <p class="more">더 알아보기</p>
+        </div>
+      </div>
+      <div class="hidden"><a href="#">더알아보기</a></div>
+      <div class="m1_2">
+        
+      </div>
+      <div class="product" id="m1_3">
+        <p><img src="asset/images/icon/heart.png" alt="하트"></p>
+        <p>NEW ARRIVAL</p>
+        <p><img src="asset/images/1_cleanser.png" alt="클렌저"></p>
+        <p>젠틀 블랙 페이셜 클렌져<br>15,000원</p>
+      </div>
+      <div class="product" id="m1_4">
+        <p><img src="asset/images/icon/heart.png" alt="하트"></p>
+        <p>NEW ARRIVAL</p>
+        <p><img src="asset/images/1_cleanoil.png" alt="클렌징오일"></p>
+        <p>젠틀 블랙 프레쉬 클렌징 오일<br>16,900원</p>
+      </div>
+    </div>
+
+
+    <div class="main_2">
+      <h3>Shop By Style</h3>
+      <p id="s_txt">→ 신상품보러가기</p>
+      <div class="swiper new_pro">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide ">
+            <p>CLEANGING</p>
+            <img src="asset/images/1_cleanser.png" alt="클렌저">
+          </div>
+          <div class="swiper-slide">
+            <p>HAND CREAM</p>
+            <img src="asset/images/2_handcream.png" alt="클렌저">
+          </div>
+          <div class="swiper-slide">
+            <p>CREAM</p>
+            <img src="asset/images/2_cream.png" alt="크림">
+          </div>
+          <div class="swiper-slide">
+            <p>SET</p>
+            <img src="asset/images/2_set.png" alt="세트상품">
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+
+    <div class="main_3">
+      <ul>
+        <li class="hidden"><a href="#">더 알아보기</a></li>
+        <li class="m3_1">
+          <div class="txt2">
+            <h2>KLAIRS X <br>BEST SERUM</h2>
+            <p>누적판매 200만 돌파한 모두가 인정한 비타민 드롭<br>
+              투명한 에센스 제형으로 가벼운 사용감과<br>
+              자외선 손상 완화 테스트 까지 완료한<br>
+              민감한 피부를 위한 저자극 비타민 세럼입니다.</p>
+            <p class="more_x">비건 비타민세럼 보러가기</p>
+          </div>
+        </li>
+        <li class="m3_2">
+          <img src="asset/images/4_serum.png" alt="세럼">
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="main_4">
+      <!--백그라운드 이미지로 넣기 / 모바일버전 X-->
+      <h2>KLAIRS SEOUL<br>STORE</h2>
+      <p>서울에서 출발한 브랜드 디어, 클레어스의 첫번째 오프라인 공간 입니다.</p>
+    </div>
+
+
+    <div class="main_5">
+      <ul>
+      <li class="m5_1">
+        <div class="txt3">
+          <h2>KLAIRS<br>MIST X TONER</h2>
+          <p>끈적임 없이 촉촉한 토너와 미스트<br>
+             수분충전이 필요한 에센스형과<br>
+             피부결정돈이 중요한 데일리형을 만나 보세요</p>
+          <p class="more">구매하기</p>
+        </div>
+      </li>
+      <li class="hidden"><a href="#">더 알아보기</a></li>
+      <li class="m5_2">
+        <div class="m5_sub1">
+            <p><img src="asset/images/icon/heart.png" alt="하트"></p>
+            <p>BEST PRODUCT</p>
+            <p><img src="asset/images/6_sub1.png" alt="스킨워터"></p>
+            <p>데일리 스킨 하이드레이팅 워터<br>26,900원</p>
+        </div>
+        <div class="m5_sub2">
+            <p><img src="asset/images/icon/heart.png" alt="하트"></p>
+            <p>BEST PRODUCT</p>
+            <p><img src="asset/images/6_sub2.png" alt="스킨워터"></p>
+            <p>데일리 스킨 소프닝 워터<br>26,900원</p>
+        </div>
+        <div class="m5_sub3">
+            <p><img src="asset/images/icon/heart.png" alt="하트"></p>
+            <p>BEST PRODUCT</p>
+            <p><img src="asset/images/6_sub3.png" alt="페이셜 토너"></p>
+            <p>서플 프레퍼레이션 페이셜 토너<br>12,900원</p>
+        </div>
+        <div class="m5_sub4">
+            <p><img src="asset/images/icon/heart.png" alt="하트"></p>
+            <p>BEST PRODUCT</p>
+            <p><img src="asset/images/6_sub4.png" alt="언센티드토너"></p>
+            <p>서울 프레퍼레이션 언센티드 토너<br>12,900원</p>
+        </div>
+      </li>
+    </ul>
+    </div>
+
+
+    <div class="main_6">
+      <ul>
+        <li class="m6_1">
+          <div class="txt4">
+            <h2>EYE CARE</h2>
+            <p>얇고 건조한 눈가 피부를 위한 아이듀오</p>
+            <p class="more">더 알아보기</p>
+          </div>
+        </li>
+        <li class="hidden"><a href="#">더 알아보기</a></li>
+        <li class="m6_2">
+          <div class="m6_sub1">
+            
+          </div>
+          <div class="m6_sub2">
+            <p><img src="asset/images/icon/heart.png" alt="하트"></p>
+            <p>EYE CARE</p>
+            <p><img src="asset/images/7_sub2.png" alt="젤"></p>
+            <p>펀더멘탈 아이 어웨이크닝 젤<br>25,500원</p>
+          </div>
+          <div class="m6_sub3">
+            <p><img src="asset/images/icon/heart.png" alt="하트"></p>
+            <p>EYE CARE</p>
+            <p><img src="asset/images/7_sub3.png" alt="버터"></p>
+            <p>펀더멘탈 너리싱 아이 버터<br>24,500원</p>
+          </div>
+          <div class="m6_sub4">
+                     
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="main_7">
+      <!--포지션 값주기 / 모바일버전 X-->
+      <div class="m7_sub1">
+        <img src="asset/images/8_left.png" alt="왼쪽이미지">
+      </div>
+      <div class="m7_sub3">
+        <h3>DEAR, KLAIRS<br>SPARK MOMENT BOX</h3>
+        <p class="more">더 알아보기</p>
+      </div>
+      <div class="m7_sub2">
+        <img src="asset/images/8_center.png" alt="센터이미지">
+      </div>
+    </div>
+
+
+    <div class="main_8">
+      <ul>
+        <li class="m8_1">
+          <div class="txt5">
+            <h2>MASK PACK</h2>
+            <p>각질케어,보습,촉촉한 피부를 유지할 수 있게 도와주는 마스크와 팩</p>
+            <p class="more">구매하기</p>
+          </div>
+        </li>
+        <li class="hidden"><a href="#">더 알아보기</a></li>
+        <li class="m8_2">
+          <div class="m8_sub1">
+            <p><img src="asset/images/icon/heart.png" alt="하트"></p>
+            <p>VEGUN MASK</p>
+            <p><img src="asset/images/9_sub1.png" alt="슈거마스크"></p>
+            <p>유스풀 글로우 슈거 마스크<br>18,900원</p>
+          </div>
+          <div class="m8_sub2">
+            
+          </div>
+          <div class="m8_sub3">
+            
+          </div>
+          <div class="m8_sub4">
+            <p><img src="asset/images/icon/heart.png" alt="하트"></p>
+            <p>FACE MASK</p>
+            <p><img src="asset/images/9_sub4.png" alt="마스크"></p>
+            <p>프레쉴리 쥬스트 비타민E 마스크<br>26,460원<em>10%</em></p>     
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="main_9">
+      <h3>Klairs Best</h3>
+      <p id="best">→ 베스트상품 보러가기</p>
+      <div class="swiper best_pro">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <p>미드나잇 블루 카밍 크림</p>
+            <img src="asset/images/10_img1.png" alt="크림">
+          </div>
+          <div class="swiper-slide">
+            <p>일루미네이팅 서플 블레미쉬 크림</p>
+            <img src="asset/images/10_img2.png" alt="블레미쉬크림">
+          </div>
+          <div class="swiper-slide">
+            <p>리치 모이스트 수딩크림</p>
+            <img src="asset/images/10_img3.png" alt="수딩크림">
+          </div>
+          <div class="swiper-slide">
+            <p>프레쉴리 쥬스드 비타민 드롭</p>
+            <img src="asset/images/10_img4.png" alt="드롭">
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+
+    <div class="main_10">
+      <!--그리드로 주자..-->
+      <h3>Explre Klairs</h3>
+      <div id="menu">
+        <div class="item item1">
+           <h3>→</h3> 
+           <p>베스트<br>전체보기</p> 
+        </div>
+        <div class="item item2">
+           <h3>→</h3> 
+           <p>신상품<br> 전체보기</p> 
+        </div>
+        <div class="item item3">
+           <h3>→</h3> 
+           <p>세일<br> 전체보기</p> 
+        </div>
+        <div class="item item4">
+           <h3>→</h3> 
+           <p>토너 / 미스트</p> 
+        </div>
+        <div class="item item5">
+           <h3>→</h3> 
+           <p>세럼 / 에센스</p> 
+        </div>
+        <div class="item item6">
+           <h3>→</h3> 
+           <p>마스크 / 팩</p> 
+        </div>
+        <div class="item item7">
+           <h3>→</h3> 
+           <p>로션 / 크림</p> 
+        </div>
+        <div class="item item8">
+           <h3>→</h3> 
+           <p>클렌징</p> 
+        </div>
+        <div class="item item9">
+           <h3>→</h3> 
+           <p>기타케어</p> 
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="foot_1">
+      <ul>
+        <li>
+          <img src="asset/images/12_service.png" alt="cs">
+          <h4>CS CENTER</h4>
+          <p>민감한 피부만을 위한 클레어스만의 스페셜한 피부 상담소</p>
+        </li>
+        <li>
+          <img src="asset/images/12_store.png" alt="스토어">
+          <h4>OFFLINE STORE</h4>
+          <p>서울에서 출발한 브랜드 디어, 클레어스의
+            첫번째 오프라인 공간이며,
+            클레어스 전 제품을 체험하고 구매
+            할 수 있는 플래그쉽 스토어</p>
+        </li>
+        <li>
+          <img src="asset/images/12_logo.png" alt="신규회원">
+          <h4>신규 회원 혜택</h4>
+          <p>5000원 적립금, 생일쿠폰 지급 등
+            지금 회원가입하시고
+            더욱 특별한 혜택을 누려보세요.</p>
+            <p id="atag"><a href="#">회원가입하기</a></p>
+        </li>
+        <li>
+          <img src="asset/images/12_sns.png" alt="sns">
+          <h4>Follow Us</h4>
+          <p>클레어스의 SNS 채널을 통해
+            신상품 정보 및 이벤트 등 새로운 소식을
+            확인하세요.</p>
+        </li>
+      </ul>
+    </div>
+
+    
+    <!--모바일 버전 X-->
+    <div class="foot_2">
+      <ul class="lastM">
+        <li>
+          <h5>FOLLOW US</h5>
+          <ul id="sns">
+            <li><a href="https://www.facebook.com/Klairs/"><img src="asset/images/icon/facebook.png" alt="페북"></a></li>
+            <li><a href="https://www.instagram.com/dear_klairs/"><img src="asset/images/icon/insta.png" alt="인스타"></a></li>
+            <li><a href="https://blog.naver.com/wish_klairs"><img src="asset/images/icon/naver.png" alt="네이버"></a></li>
+          </ul>
+        </li>
+        <li>
+          <h5>SUPPORT</h5>
+          <p><a href="#">고객지원센터</a></p>
+          <p><a href="#">1:1문의</a></p>
+          <p><a href="#">Q & A</a></p>
+          <p><a href="#">주문/배송조회</a></p>
+        </li>
+        <li>
+          <h5>INFORMATION</h5>
+          <p><a href="#">클레어스에 대하여</a></p>
+          <p><a href="#">회원가입</a></p>
+          <p><a href="#">매장안내</a></p>
+          <p><a href="#">공지사항</a></p>
+        </li>
+        <li>
+          <h5>POLICY</h5>
+          <p><a href="#">이용약관</a></p>
+          <p><a href="#">개인정보처리방침</a></p>
+        </li>
+        <li>
+          <h5>BANK ACCOUNT</h5>
+          <p>국민은행 431837-01-011007</p>
+          <p>위시컴퍼니(주)</p>
+        </li>
+      </ul>
+    </div>
+ 
+    <div class="pofol">
+      <h1><a href="#">포트폴리오 바로가기</a></h1>
+    </div>
+
+    <div class="m_bot">
+      <ul id="left">
+        <li><img src="asset/images/icon/kr.svg" alt="국기" width="18px" height="12px"></li>
+        <li>ㅣ</li>
+        <li>한국어</li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="asset/common/prefixfree.min.js"></script>
+  <script src="asset/common/swiper-bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
