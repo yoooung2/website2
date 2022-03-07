@@ -1,0 +1,22 @@
+[
+  {
+    "tags" : "1_cleanser",
+    "description" : "클렌저 이미지 입니다",
+    "url" : "asset/images/1_cleanser.png"
+  },
+  {
+    "tags" : "2_handcream",
+    "description" : "핸드크림 이미지 입니다",
+    "url" : "asset/images/2_handcream.png"
+  },
+  {
+    "tags" : "2_cream",
+    "description" : "크림 이미지 입니다",
+    "url" : "asset/images/2_cream.png"
+  },
+  {
+    "tags" : "2_set",
+    "description" : "세트상품 이미지 입니다",
+    "url" : "asset/images/2_set.png"
+  }
+]

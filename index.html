@@ -32,7 +32,6 @@
   <!-- css (mobile)-->
   <link rel="stylesheet" media="(max-width:768px)" href="index_m.css">
 
-
 </head>
 <body>
     <div class="notice">
@@ -153,19 +152,23 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide ">
             <p>CLEANGING</p>
-            <img src="asset/images/1_cleanser.png" alt="클렌저">
+            <div class="imageA"></div>
+            <!--<img src="asset/images/1_cleanser.png" alt="클렌저">-->
           </div>
           <div class="swiper-slide">
             <p>HAND CREAM</p>
-            <img src="asset/images/2_handcream.png" alt="클렌저">
+            <div class="imageA"></div>
+            <!--<img src="asset/images/2_handcream.png" alt="클렌저">-->
           </div>
           <div class="swiper-slide">
             <p>CREAM</p>
-            <img src="asset/images/2_cream.png" alt="크림">
+            <div class="imageA"></div>
+            <!--<img src="asset/images/2_cream.png" alt="크림">-->
           </div>
           <div class="swiper-slide">
             <p>SET</p>
-            <img src="asset/images/2_set.png" alt="세트상품">
+            <div class="imageA"></div>
+            <!--<img src="asset/images/2_set.png" alt="세트상품">-->
           </div>
         </div>
         <div class="swiper-pagination"></div>
@@ -482,8 +485,27 @@
     </div>
   </footer>
 
+  <script src="asset/common/jquery-3.6.0.min.js"></script>
   <script src="asset/common/prefixfree.min.js"></script>
   <script src="asset/common/swiper-bundle.min.js"></script>
   <script src="index.js"></script>
+
+  <script>
+    $.ajax({
+      url: "index.json",
+      dataType : "json",
+      success : function(data){
+        if(data.length > 0) {
+          for(let el in data){
+            let tags = data[el].tags;
+            let desc = data[el].description;
+            let url = data[el].url;
+
+            $('.imageA').eq(el).append(`<img src=${url}>`);
+        }
+      }
+    }  
+  });
+  </script>
 </body>
 </html>
